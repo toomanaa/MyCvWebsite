@@ -21,6 +21,11 @@
             text-align: center;
             margin-bottom: 20px;
         }
+         @media print {
+            a[href]:after {
+                content: " (" attr(href) ")";
+            }
+        }
     </style>
     <title>Ibrahim Alghamdi - Profile</title>
 </head>
